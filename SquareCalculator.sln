@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareCalculator", "SquareC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareCalculator.Tests", "SquareCalculator.Tests\SquareCalculator.Tests.csproj", "{FF5271C9-B502-42B4-8E08-BC6327F8D6F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareCalculatorFactory", "SquareCalculatorFactory\SquareCalculatorFactory.csproj", "{66CEB28F-526E-4AB8-BBCE-CB8BCCCF493E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareCalculatorFactory.Tests", "SquareCalculatorFactory.Tests\SquareCalculatorFactory.Tests.csproj", "{A61C26FF-50C3-4EBB-AADB-426328A4BF15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{FF5271C9-B502-42B4-8E08-BC6327F8D6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF5271C9-B502-42B4-8E08-BC6327F8D6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF5271C9-B502-42B4-8E08-BC6327F8D6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CEB28F-526E-4AB8-BBCE-CB8BCCCF493E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CEB28F-526E-4AB8-BBCE-CB8BCCCF493E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CEB28F-526E-4AB8-BBCE-CB8BCCCF493E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CEB28F-526E-4AB8-BBCE-CB8BCCCF493E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61C26FF-50C3-4EBB-AADB-426328A4BF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61C26FF-50C3-4EBB-AADB-426328A4BF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61C26FF-50C3-4EBB-AADB-426328A4BF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61C26FF-50C3-4EBB-AADB-426328A4BF15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
