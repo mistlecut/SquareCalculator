@@ -17,7 +17,7 @@ public class Tests
         //arrange
         var triangle = new Triangle(cathetusA, cathetusB, hypotenuse);
         //act
-        var square = Calculator<Triangle>.GetSquare(triangle);
+        var square = Calculator.GetSquare(triangle);
         //assert
         Assert.AreEqual(expectedSquare, square, 1E5);
     }
@@ -37,7 +37,7 @@ public class Tests
         var triangle = new Triangle(cathetusA, cathetusB, hypotenuse);
         
         //act
-        var square = Calculator<Triangle>.GetSquare(triangle);
+        var square = Calculator.GetSquare(triangle);
         
         //assert
         Assert.AreEqual(expectedSquare, square, 1E5);
@@ -50,7 +50,7 @@ public class Tests
         var triangle = new Triangle(-1, 0, 0);
 
         //act, assert
-        Assert.Throws<ArgumentException>(() => Calculator<Triangle>.GetSquare(triangle));
+        Assert.Throws<ArgumentException>(() => Calculator.GetSquare(triangle));
     }
 
     [Test]
@@ -62,7 +62,7 @@ public class Tests
         //arrange
         var circle = new Circle(radius);
         //act
-        var square = Calculator<Circle>.GetSquare(circle);
+        var square = Calculator.GetSquare(circle);
         //assert
         Assert.AreEqual(expectedSquare, square, 1E5);
     }
@@ -74,6 +74,6 @@ public class Tests
         var circle = new Circle(-1);
 
         //act, assert
-        Assert.Throws<ArgumentException>(() => Calculator<Circle>.GetSquare(circle));
+        Assert.Throws<ArgumentException>(() => Calculator.GetSquare(circle));
     }
 }
